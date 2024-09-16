@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+export default function MapScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>欢迎使用离线农场管理软件</Text>
+      <Text>地图页面</Text>
     </View>
   );
 }
@@ -12,11 +12,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    alignItems: 'center',
   },
 });

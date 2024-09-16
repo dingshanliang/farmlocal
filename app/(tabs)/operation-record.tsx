@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+export default function OperationRecordScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>欢迎使用离线农场管理软件</Text>
+      <Text style={styles.title}>农事记录</Text>
     </View>
   );
 }
