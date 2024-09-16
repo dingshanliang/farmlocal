@@ -18,11 +18,20 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "developmentClient": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "scheme": "farmlocal"
+    "scheme": "farmlocal",
+    "plugins": [
+      [
+        "expo-dev-client",
+        {
+          "iosLaunchScreenStoryboardName": "SplashScreen"
+        }
+      ]
+    ]
   }
 }
