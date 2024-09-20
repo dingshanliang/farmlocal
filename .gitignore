@@ -31,3 +31,6 @@ yarn-error.*
 
 # dependencies
 /node_modules
+
+/android
+/ios
